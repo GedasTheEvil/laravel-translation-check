@@ -5,10 +5,13 @@ Checks If any of the translation files are missing keys from the default languag
 ## example
 ```php
 <?php
-include('vendor/autoload.php');
+
+include('src/AutoLoader.php');
 
 use GedasTheEvil\LaravelTranslationCheck\TranslationCheck;
 
-(new TranslationCheck(__DIR__, 'en'))->runInConsole();
+(new TranslationCheck(__DIR__))->runInConsole();
 
 ```
+
+**Note:** You dont need to include the AutoLoader if you are using composer to get this package
