@@ -1,0 +1,14 @@
+{
+  "packages": {
+    "GedasTheEvil/LaravelTranslationCheck": {
+      "dev-master": {
+        "name": "GedasTheEvil/LaravelTranslationCheck",
+        "version": "0.0.1",
+        "dist": {
+          "url": "http://www.smarty.net/files/Smarty-3.1.7.zip",
+          "type": "zip"
+        }
+      }
+    }
+  }
+}
