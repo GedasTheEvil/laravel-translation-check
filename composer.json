@@ -7,8 +7,10 @@
     "test"
   ],
   "license": "GNU",
-  "psr-4": {
-    "GedasTheEvil\\LaravelTranslationCheck\\": "src"
+  "autoload": {
+    "psr-4": {
+      "GedasTheEvil\\LaravelTranslationCheck\\": "src"
+    }
   },
   "authors": [
     {
