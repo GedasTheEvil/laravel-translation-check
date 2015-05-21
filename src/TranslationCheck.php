@@ -2,7 +2,9 @@
 
 namespace GedasTheEvil\LaravelTranslationCheck;
 
+use GedasTheEvil\LaravelTranslationCheck\Exceptions\Exception;
 use GedasTheEvil\LaravelTranslationCheck\Exceptions\TranslationNotFound;
+use GedasTheEvil\LaravelTranslationCheck\Formatter\ConsoleColor;
 use GedasTheEvil\LaravelTranslationCheck\Service\Assertion;
 
 class TranslationCheck
