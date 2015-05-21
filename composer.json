@@ -1,0 +1,18 @@
+{
+  "name": "GedasTheEvil/LaravelTranslationCheck",
+  "description": "Checks If any of the translation files are missing keys from the default language",
+  "keywords": [
+    "laravel",
+    "localization",
+    "test"
+  ],
+  "license": "GNU",
+  "psr-4": {
+    "GedasTheEvil\\LaravelTranslationCheck\\": "src"
+  },
+  "authors": [
+    {
+      "name": "Gediminas Skucas (GedasTheEvil)"
+    }
+  ]
+}
